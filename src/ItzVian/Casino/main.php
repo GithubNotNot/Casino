@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace ItzVian\Casino;
 
-use ItzVian\Casino\libs\FormAPI\CustomFrom;
+use ItzVian\Casino\libs\FormAPI\CustomForm;
 use ItzVian\Casino\libs\FormAPI\Form;
 use ItzVian\Casino\libs\FormAPI\FormAPI;
 use ItzVian\Casino\libs\FormAPI\ModalForm;
