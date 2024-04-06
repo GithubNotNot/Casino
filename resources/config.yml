@@ -1,0 +1,17 @@
+# Config
+
+
+# Nama Tombol
+coin_bet: "§lTaruhan Coin"
+number_game: "§lPermainan Angka"
+coin_flip: "§lLempar Coin"
+
+# Nama UI
+main_ui: "§l§6Casino"
+coin_betUI: "§l§6Taruhan Coin"
+number_gameUI: "§l§6Permainan Angka"
+coin_flipUI: "§l§6Lempar Coin"
+
+# Jumlah taruhan
+minimum_amount: 10
+maximum_amount: 100
