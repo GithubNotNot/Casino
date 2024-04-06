@@ -2,6 +2,8 @@
 This plugin is useful for members' enjoyment of gambling </br>
 You can set the maximum and minimum coins on ```config.yml```</br> </br>
 
+![icon](https://github.com/GithubNotNot/Casino/blob/main/icon.png)
+
 </br>
 
 # ❗Information
