@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace angga7togk\coderedeem\libs\FormAPI;
+namespace ItzVian\Casino\libs\FormAPI;
 
 use pocketmine\plugin\PluginBase;
 use angga7togk\coderedeem\libs\FormAPI\ModalForm;
