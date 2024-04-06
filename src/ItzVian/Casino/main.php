@@ -14,6 +14,7 @@ use onebone\coinapi\CoinAPI;
 use jojoe77777\FormAPI\Form;
 use jojoe77777\FormAPI\SimpleForm;
 use jojoe77777\FormAPI\CustomForm;
+use jojoe77777\FormAPI\SimpleForm;
 
 class main extends PluginBase implements Listener {
     public function onEnable(): void{
