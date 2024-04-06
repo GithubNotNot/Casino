@@ -1,0 +1,16 @@
+name: Casino
+main: ItzVian\Casino\main
+api: [5.0.0]
+version: 1.2
+author: ItzVian
+
+depend:
+- "CoinAPI"
+commands:
+  casino:
+    permission: casino.use
+    description: open casino menu!
+permissions:
+  casino.use:
+    description: permission to give casino access
+    default: true
