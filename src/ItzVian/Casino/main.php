@@ -52,10 +52,9 @@ class main extends PluginBase implements Listener {
             }
         });
         $form->setTitle($this->getConfig()->get("main_ui"));
-        $form->setContent("ayo main casino");
-        $form->addButton($this->getConfig()->get("coin_bet", 1, "https://cdn.discordapp.com/attachments/1135948297475997737/1191834507746234398/maquina-tragamonedas-dibujos-animados-dinero-ilustracion-juegos-casino_863013-8079.jpg?ex=65a6e161&is=65946c61&hm=2be3fc91c56e207a20c6226994197f51e64ada0cd3149eca0391e79826e4ada2&"));
-        $form->addButton($this->getConfig()->get("number_game", 1, "https://cdn.discordapp.com/attachments/1135948297475997737/1191834507284848792/juego-casino-linea-tragamonedas-casino-fichas-colores_30996-3132.jpg?ex=65a6e161&is=65946c61&hm=e77d235a13c74c3056005eda411df71fe5db4764986f3652471e4a0c139099b1&"));
-        $form->addButton($this->getConfig()->get("coin_flip", 1, "https://cdn.discordapp.com/attachments/1135948297475997737/1191834507037380658/maquina-tragamonedas-dibujos-animados-dinero-ilustracion-juegos-casino_863013-8070.jpg?ex=65a6e161&is=65946c61&hm=0b7bd11b3ccca7e0ba9ae8f04499764b8b475a066869a669d3fdc56463aeea96&"));
+        $form->addButton($this->getConfig()->get("coin_bet"));
+        $form->addButton($this->getConfig()->get("number_game"));
+        $form->addButton($this->getConfig()->get("coin_flip"));
         $player->sendForm($form);
         return $form;
     }
