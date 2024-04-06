@@ -77,7 +77,7 @@ class main extends PluginBase implements Listener {
                                 case 1:
                                     $value = $data[0] * 2;
                                     CoinAPI::getInstance()->addCoin($player, $value);
-                                    $player->sendMessage("§l§eHAPPY | §6CASINO §r§2Selamat, kamu menang");
+                                    $player->sendMessage("§l§e§6CASINO §e» §r§2Selamat, kamu menang");
                                 break;
 
                                 case 2:
