@@ -4,6 +4,12 @@ declare(strict_types=1);
 
 namespace ItzVian\Casino;
 
+use ItzVian\Casino\libs\FormAPI\CustomFrom;
+use ItzVian\Casino\libs\FormAPI\Form;
+use ItzVian\Casino\libs\FormAPI\FormAPI;
+use ItzVian\Casino\libs\FormAPI\ModalForm;
+use ItzVian\Casino\libs\FormAPI\SimpleForm;
+use pocketmine\console\ConsoleCommandSender;
 use pocketmine\player\Player;
 use pocketmine\Server;
 use pocketmine\plugin\PluginBase;
@@ -11,9 +17,6 @@ use pocketmine\event\Listener;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use onebone\coinapi\CoinAPI;
-use jojoe77777\FormAPI\Form;
-use jojoe77777\FormAPI\SimpleForm;
-use jojoe77777\FormAPI\CustomForm;
 
 class main extends PluginBase implements Listener {
     public function onEnable(): void{
