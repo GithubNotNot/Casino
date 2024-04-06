@@ -5,9 +5,9 @@ declare(strict_types = 1);
 namespace ItzVian\Casino\libs\FormAPI;
 
 use pocketmine\plugin\PluginBase;
-use angga7togk\coderedeem\libs\FormAPI\ModalForm;
-use angga7togk\coderedeem\libs\FormAPI\CustomForm;
-use angga7togk\coderedeem\libs\FormAPI\SimpleForm;
+use ItzVian\Casino\libs\FormAPI\ModalForm;
+use ItzVian\Casino\libs\FormAPI\CustomForm;
+use ItzVian\Casino\libs\FormAPI\SimpleForm;
 
 class FormAPI extends PluginBase{
 
